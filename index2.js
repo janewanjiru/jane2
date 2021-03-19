@@ -1,9 +1,11 @@
-function fruits() {
-    var fruits=["Avocado","Grape","Mangoes","Orange"];
-    fruits.forEach((fruits) => {
-        console.log(fruits);
-    
-});
-    
+function name(){
+    var a="sharon";
+    var b="mary";
+function identity(){
+    var c=a + " and " + b + " are friends ";
+    console.log(c);
+
+}identity()
+
 }
-fruits();
+name()
