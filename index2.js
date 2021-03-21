@@ -1,11 +1,11 @@
-function name(){
-    var a="sharon";
-    var b="mary";
-function identity(){
-    var c=a + " and " + b + " are friends ";
-    console.log(c);
+var fruit={
+    name:"orange",
+    price:30,
+    quantity:2,
+    fruitCost:function(price,quantity){
+        totalCost=price*quantity;
+        fruitCost=totalCost }
 
-}identity()
-
-}
-name()
+    }
+    fruit.fruitCost(30,2);
+    console.log(fruit.quantity + " " + fruit.name + " for KES " + totalCost)
